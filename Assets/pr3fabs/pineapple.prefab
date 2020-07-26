@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!65 &9095633666551455830
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301321121894196604}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 83.63931, y: 76.36963, z: 150.60373}
+  m_Center: {x: -0.35182953, y: 0.5095655, z: 73.63211}
 --- !u!1 &5424642283589146848
 GameObject:
   m_ObjectHideFlags: 0
@@ -98,11 +111,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: 10200_Pineapple_v1-L2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2718382026654400872, guid: 17c4fd220e792c04dacae8a25e734c4e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Pineapple
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17c4fd220e792c04dacae8a25e734c4e, type: 3}
 --- !u!4 &3475692439702914047 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 17c4fd220e792c04dacae8a25e734c4e,
+    type: 3}
+  m_PrefabInstance: {fileID: 4014566158282630164}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1301321121894196604 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2718382026654400872, guid: 17c4fd220e792c04dacae8a25e734c4e,
     type: 3}
   m_PrefabInstance: {fileID: 4014566158282630164}
   m_PrefabAsset: {fileID: 0}
