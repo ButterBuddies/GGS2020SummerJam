@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -14490,6 +14490,31 @@ PrefabInstance:
       propertyPath: dolly
       value: 
       objectReference: {fileID: 1222775230}
+    - target: {fileID: 6398668273674161331, guid: 624252e1322de7a498b4d471b066178a,
+        type: 3}
+      propertyPath: smoothing.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6398668273674161331, guid: 624252e1322de7a498b4d471b066178a,
+        type: 3}
+      propertyPath: smoothing.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6398668273674161331, guid: 624252e1322de7a498b4d471b066178a,
+        type: 3}
+      propertyPath: sensitivity.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6398668273674161331, guid: 624252e1322de7a498b4d471b066178a,
+        type: 3}
+      propertyPath: sensitivity.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6398668273674161331, guid: 624252e1322de7a498b4d471b066178a,
+        type: 3}
+      propertyPath: clampInDegrees.x
+      value: 315
+      objectReference: {fileID: 0}
     - target: {fileID: 6398668273674161340, guid: 624252e1322de7a498b4d471b066178a,
         type: 3}
       propertyPath: far clip plane
