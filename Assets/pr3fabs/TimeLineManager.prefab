@@ -45,7 +45,7 @@ PlayableDirector:
   m_PlayableAsset: {fileID: 11400000, guid: 60638a9d85b2b8f4ebcbd42898538a23, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
-  m_DirectorUpdateMode: 1
+  m_DirectorUpdateMode: 0
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: -3326060656046360586, guid: 60638a9d85b2b8f4ebcbd42898538a23, type: 2}
@@ -107,6 +107,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: a080dc07fcac0944e8275e98b012f16a, type: 2}
     - {fileID: 11400000, guid: cbd10e2108245ee4c992b9d4a3b1509f, type: 2}
     - {fileID: 11400000, guid: d6b565a466e631b40bb75f0a210e93a5, type: 2}
+    - {fileID: 11400000, guid: c10355b75fef1514298f0a9fd00bc237, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -168,6 +169,19 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 100
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_MethodName: ChangeSpeed
+          m_Mode: 4
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 125
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
