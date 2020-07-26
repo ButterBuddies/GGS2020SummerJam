@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7742015127549144606}
   - component: {fileID: 7742015127549144607}
+  - component: {fileID: 3154984923073302895}
   m_Layer: 0
   m_Name: tree3 1
   m_TagString: Untagged
@@ -47,6 +48,25 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!95 &3154984923073302895
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7742015127549144600}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 44f4348a4299c68418484acf39f276e8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7742015127671447800
 GameObject:
   m_ObjectHideFlags: 0
@@ -109,7 +129,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5561349426305759274, guid: 104d3f719d21baa449b797cc55955066, type: 3}
+  - {fileID: 2100000, guid: f1b37d648a28bf24db95b1fa085a739f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -193,7 +213,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5561349426305759274, guid: 104d3f719d21baa449b797cc55955066, type: 3}
+  - {fileID: 2100000, guid: a8bba18dd30683d46bf1fbfd4ada3e95, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
