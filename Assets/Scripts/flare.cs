@@ -29,7 +29,7 @@ public class flare : MonoBehaviour
         if (_done) return;
         if (_texture == null) _texture = new Texture2D(1, 1);
 
-        _texture.SetPixel(0, 0, new Color(0, 0, 0, _alpha));
+        _texture.SetPixel(0, 0, new Color(255, 255, 255, _alpha));
         _texture.Apply();
 
         _time += Time.deltaTime;
